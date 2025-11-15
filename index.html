@@ -33,16 +33,87 @@
 
     <!-- Hero Section -->
     <section id="home" class="hero">
-        <div class="hero-content">
-            <div class="profile-image">
-                <img src="css/images/about me/me.jpg" alt="Profile Photo">
+        <div class="hero-container">
+            <div class="hero-left">
+                <div class="hero-greeting">
+                    <span class="greeting-text">Hello, I'm</span>
+                </div>
+                <h1 class="hero-name">
+                    <span class="name-first">Louise</span>
+                    <span class="name-last">P. Clarke</span>
+                </h1>
+                <div class="hero-roles">
+                    <span class="role-prefix">I'm a</span>
+                    <div class="typing-container">
+                        <span class="typing-text">Software Engineering Student</span>
+                        <span class="cursor">|</span>
+                    </div>
+                </div>
+                <p class="hero-description">
+                    Passionate about creating innovative digital solutions that bridge technology with human needs. Currently studying at the University of Lay Adventists of Kigali, combining creativity with technical expertise.
+                </p>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">2+</span>
+                        <span class="stat-label">Years Experience</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">5+</span>
+                        <span class="stat-label">Projects Completed</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">3+</span>
+                        <span class="stat-label">Certifications</span>
+                    </div>
+                </div>
+                <div class="hero-actions">
+                    <a href="#contact" class="btn btn-primary">
+                        <span>Let's Connect</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#about" class="btn btn-outline">
+                        <span>View My Work</span>
+                        <i class="fas fa-eye"></i>
+                    </a>
+                </div>
+                <div class="social-links-hero">
+                    <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="social-link"><i class="fas fa-envelope"></i></a>
+                </div>
             </div>
-            <h1>Louise P. Clarke</h1>
-            <p class="hero-subtitle">Software Engineering Student & Aspiring Front-End Developer</p>
-            <p class="bio">Passionate Software Engineering student at the University of Lay Adventists of Kigali. I combine creativity, logic, and design to build meaningful, user-friendly digital solutions that bridge technology with real human needs.</p>
-            <div class="hero-buttons">
-                <a href="#contact" class="btn primary">Get In Touch</a>
-                <a href="#about" class="btn secondary"><i class="fas fa-user"></i> Learn More</a>
+            <div class="hero-right">
+                <div class="profile-container">
+                    <div class="profile-image-wrapper">
+                        <img src="css/images/about-me/me.jpg" alt="Louise P. Clarke" class="profile-img">
+                        <div class="profile-ring"></div>
+                        <div class="profile-dots">
+                            <span class="dot dot-1"></span>
+                            <span class="dot dot-2"></span>
+                            <span class="dot dot-3"></span>
+                        </div>
+                    </div>
+                    <div class="floating-cards">
+                        <div class="card card-1">
+                            <i class="fas fa-code"></i>
+                            <span>Frontend Dev</span>
+                        </div>
+                        <div class="card card-2">
+                            <i class="fas fa-solar-panel"></i>
+                            <span>Solar Tech</span>
+                        </div>
+                        <div class="card card-3">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>Student</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll Down</span>
+            <div class="scroll-arrow">
+                <i class="fas fa-chevron-down"></i>
             </div>
         </div>
     </section>
@@ -53,8 +124,8 @@
             <h2>About Me</h2>
             <div class="about-content">
                 <div class="about-images">
-                    <img src="css/images/about me/Aboutme.jpg" alt="Louise Clarke" class="about-img-main">
-                    <img src="css/images/about me/peace.jpg" alt="Louise Clarke" class="about-img-small">
+                    <img src="css/images/about-me/aboutme.jpg" alt="Louise Clarke" class="about-img-main">
+                    <img src="css/images/about-me/peace.jpg" alt="Louise Clarke" class="about-img-small">
                 </div>
                 <div class="about-text">
                     <p>Hi, I'm Louise P. Clarke — a passionate and driven Software Engineering student at the University of Lay Adventists of Kigali (Nyanza Campus). My education journey began at St. Paul Academy, where I built a strong academic foundation.</p>
@@ -80,7 +151,7 @@
                 </div>
                 <div class="education-item">
                     <div class="education-image">
-                        <img src="css/images/about me/high school.jpg" alt="High School">
+                        <img src="css/images/about-me/high-school.jpg" alt="High School">
                     </div>
                     <h3>Diploma in Computer Hardware</h3>
                     <p class="institution">Tecurd Institute of Vocational and Technical Training Center</p>
@@ -100,7 +171,7 @@
                     <div class="timeline-dot"></div>
                     <div class="timeline-content">
                         <div class="experience-image">
-                            <img src="css/images/experience/action aid2.jpg" alt="Action Aid Team">
+                            <img src="css/images/experience/action-aid2.jpg" alt="Action Aid Team">
                         </div>
                         <h3>Community Outreach Coordinator</h3>
                         <p class="company">Action Aid - Extended Program</p>
@@ -112,11 +183,12 @@
                         </ul>
                     </div>
                 </div>
+
                 <div class="timeline-item">
                     <div class="timeline-dot"></div>
                     <div class="timeline-content">
                         <div class="experience-image">
-                            <img src="css/images/experience/vice the former Vice president of liberian on MOP.jpg" alt="MOP Leadership Experience">
+                            <img src="css/images/experience/vice.jpg" alt="MOP Leadership Experience">
                         </div>
                         <h3>Leadership Development Program</h3>
                         <p class="company">MOP - Meeting with Former Vice President of Liberia</p>
@@ -128,11 +200,12 @@
                         </ul>
                     </div>
                 </div>
+
                 <div class="timeline-item">
                     <div class="timeline-dot"></div>
                     <div class="timeline-content">
                         <div class="experience-image">
-                            <img src="css/images/experience/action aid.jpg" alt="Action Aid Experience">
+                            <img src="css/images/experience/action-aid.jpg" alt="Action Aid Experience">
                         </div>
                         <h3>Community Development Volunteer</h3>
                         <p class="company">Action Aid</p>
@@ -144,11 +217,12 @@
                         </ul>
                     </div>
                 </div>
+
                 <div class="timeline-item">
                     <div class="timeline-dot"></div>
                     <div class="timeline-content">
                         <div class="experience-image">
-                            <img src="css/images/experience/choir(Abunadant Grace.jpg" alt="Choir Experience">
+                            <img src="css/images/experience/choir.jpg" alt="Choir Experience">
                         </div>
                         <h3>Choir Member</h3>
                         <p class="company">Abundant Grace Choir</p>
@@ -160,11 +234,12 @@
                         </ul>
                     </div>
                 </div>
+
                 <div class="timeline-item">
                     <div class="timeline-dot"></div>
                     <div class="timeline-content">
                         <div class="experience-image">
-                            <img src="css/images/experience/NEC.jpg" alt="NEC Experience">
+                            <img src="css/images/experience/nec.jpg" alt="NEC Experience">
                         </div>
                         <h3>Technical Training Program</h3>
                         <p class="company">National Electoral Commission (NEC)</p>
@@ -176,11 +251,12 @@
                         </ul>
                     </div>
                 </div>
+
                 <div class="timeline-item">
                     <div class="timeline-dot"></div>
                     <div class="timeline-content">
                         <div class="experience-image">
-                            <img src="css/images/experience/PPAYO.jpg" alt="PPAYO Experience">
+                            <img src="css/images/experience/ppayo.jpg" alt="PPAYO Experience">
                         </div>
                         <h3>Youth Development Program</h3>
                         <p class="company">PPAYO (Peace and Prosperity for All Youth Organization)</p>
@@ -301,7 +377,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="skill-category">gi
+                    <div class="skill-category">
                         <h3>Tools & Technologies</h3>
                         <div class="skill-tags">
                             <span class="skill-tag">Git</span>
@@ -324,7 +400,7 @@
             <div class="certificates-grid">
                 <div class="certificate-item">
                     <div class="certificate-image">
-                        <img src="css/images/Certificate/solar.jpg" alt="Solar Installation Certificate">
+                        <img src="css/images/certificate/solar.jpg" alt="Solar Installation Certificate">
                     </div>
                     <h3>Solar Installation Certification</h3>
                     <p class="issuer">More Than Academy</p>
@@ -332,7 +408,7 @@
                 </div>
                 <div class="certificate-item">
                     <div class="certificate-image">
-                        <img src="css/images/Certificate/MOP.jpg" alt="MOP Certificate">
+                        <img src="css/images/certificate/mop.jpg" alt="MOP Certificate">
                     </div>
                     <h3>Professional Training Certificate</h3>
                     <p class="issuer">MOP Training Center</p>
@@ -340,7 +416,7 @@
                 </div>
                 <div class="certificate-item">
                     <div class="certificate-image">
-                        <img src="css/images/Certificate/high school.jpg" alt="High School Certificate">
+                        <img src="css/images/certificate/high-school-cert.jpg" alt="High School Certificate">
                     </div>
                     <h3>High School Diploma</h3>
                     <p class="issuer">St. Paul Academy</p>
@@ -348,7 +424,7 @@
                 </div>
                 <div class="certificate-item">
                     <div class="certificate-image">
-                        <img src="css/images/Certificate/solar2.jpg" alt="Advanced Solar Certificate">
+                        <img src="css/images/certificate/solar2.jpg" alt="Advanced Solar Certificate">
                     </div>
                     <h3>Advanced Solar Systems</h3>
                     <p class="issuer">Technical Training Institute</p>
